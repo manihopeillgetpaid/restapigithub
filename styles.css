@@ -1,0 +1,83 @@
+@font-face{
+font-family: Roboto;
+src: url(font/Roboto-Light.ttf);
+}
+body{
+    width: 661px;
+    /* height: 763px; */
+    /* border: 1px solid red; */
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    flex-direction: column;
+    align-items:center;
+    
+}
+.search-container{
+    border: 1px solid black;
+   width: 500px;
+   height: 281px;
+
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* padding-top: 60px; */
+   
+
+}
+.search-input{
+-webkit-appearance:textfield;
+/* box-sizing: cosntent-box; */
+width: 500px;
+height: 61px;
+padding-left: 13px;
+font-size: 48px;
+font-family: 'roboto';
+} 
+::placeholder{
+    color: black;
+}
+input:focus::placeholder{
+    color: transparent;
+}
+.repo-container{
+    /* box-sizing: content-box; */
+    padding: 0;
+    margin:0;
+width: 500px;
+/* height: 281px; */
+font-size: 48px;
+font-family: 'roboto';
+/* border: 1px solid green; */
+}
+.pop{
+height: 44px;
+width: 100%;
+border: 1px solid black;
+font-size: 30px;
+padding-left: 13px;
+text-align: left;
+background-color: inherit;
+}
+.pop:hover{
+    background-color: #65CDF9;
+}
+.new-repo-cont{
+    position: relative;
+    background-color: #E27BEB;
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28.13px;
+ padding-left: 16px;
+ padding-top: 8px;
+ padding-bottom: 8px;
+ border: 1px solid black;
+}
+.close-button {
+    background: transparent;
+    border: 0;
+    position: absolute;
+    top: 30px;
+    right: 34px;
+}
